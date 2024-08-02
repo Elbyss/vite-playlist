@@ -1,4 +1,3 @@
-import CDPlayer from '../components/CDPlayer';
 import Home from '../components/Home';
 
 type Route = {
@@ -10,9 +9,5 @@ export const routes: Route[] = [
   {
     path: '/',
     element: <Home />,
-  },
-  {
-    path: '/test',
-    element: <CDPlayer />,
   },
 ];
