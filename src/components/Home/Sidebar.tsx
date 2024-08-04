@@ -14,7 +14,6 @@ export default function Sidebar({ playlist }: { playlist: PlayList }) {
 
   return (
     <>
-      {/* <div className='text-xl'>재생목록</div> */}
       <div className='bg-indigo-950 text-white font-bold text-2xl rounded-[36px] flex-col gap-8 flex m-4'>
         <figure className='flex justify-center rounded-[36px] border border-opacity-50 border-gray-500 m-8'>
           <img
