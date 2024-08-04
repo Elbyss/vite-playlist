@@ -5,7 +5,6 @@ import { playedState, playingState } from '../../atoms/playerState';
 import { useRecoilState } from 'recoil';
 import { PlayList } from '../../types/playList';
 import { forwardRef } from 'react';
-import { toast } from 'sonner';
 
 function Sidebar({
   playlist,
@@ -14,7 +13,7 @@ function Sidebar({
   handlePrevTrack,
 }: {
   playlist: PlayList;
-  playerRef: null;
+  playerRef: any;
   handleNextTrack: () => void;
   handlePrevTrack: () => void;
 }) {
